@@ -1,0 +1,146 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  /* Header */
+  header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem 0;
+  }
+  
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 2rem;
+  }
+  
+  header h1 {
+    font-size: 1.8rem;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: url('https://via.placeholder.com/1500x500') no-repeat center center/cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 2rem;
+  }
+  
+  .hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .hero .btn {
+    padding: 0.8rem 2rem;
+    background-color: #4CAF50;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+  }
+  
+  .hero .btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* Courses Section */
+  .courses-section {
+    padding: 2rem;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  .courses-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .course-grid {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .course-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    text-align: left;
+    width: 300px;
+  }
+  
+  .course-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #4CAF50;
+  }
+  
+  .course-card p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .course-card .price {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  /* Footer */
+  footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+  
+  footer a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
